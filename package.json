@@ -1,6 +1,8 @@
 {
     "name": "mtg-proxy-printer",
     "version": "1.0.0",
+    "description": "MTG proxy card printer with Scryfall art selection",
+    "author": "Charles Smithson",
     "main": "electron.cjs",
     "scripts": {
         "dev": "vite",
@@ -13,7 +15,8 @@
         "productName": "MTG Proxy Printer",
         "files": [
             "dist/**/*",
-            "electron.cjs"
+            "electron.cjs",
+            "preload.cjs"
         ],
         "win": {
             "target": "nsis",
